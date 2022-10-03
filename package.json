@@ -1,7 +1,7 @@
 {
   "name": "web-components-lit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Development template using the web component library Lit. NPM scripts to process PostCSS while viewing files, starting the server, synchronizing with the browser, generating .webp, etc.",
   "main": "index.js",
   "directories": {},
   "scripts": {
@@ -30,7 +30,7 @@
     "watch": "npm-run-all -p watch:*"
   },
   "keywords": [],
-  "author": "",
+  "author": "Junichi Takabatake",
   "license": "MIT License",
   "dependencies": {
     "lit": "^2.3.1"

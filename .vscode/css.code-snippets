@@ -1,0 +1,61 @@
+{
+    "breakpointsXS": {
+        "prefix": "--xs",
+        "body": [
+            "@media screen and (min-width: 0px) {",
+            "    $1",
+            "}"
+        ],
+        "description": "breakpoint --xs"
+    },
+    
+    "breakpointsSM": {
+        "prefix": "--sm",
+        "body": [
+            "@media screen and (min-width: 576px) {",
+            "    $1",
+            "}"
+        ],
+        "description": "breakpoint --sm"
+    },
+
+    "breakpointsMD": {
+        "prefix": "--md",
+        "body": [
+            "@media screen and (min-width: 768px) {",
+            "    $1",
+            "}"
+        ],
+        "description": "breakpoint --md"
+    },
+
+    "breakpointsLG": {
+        "prefix": "--lg",
+        "body": [
+            "@media screen and (min-width: 992px) {",
+            "    $1",
+            "}"
+        ],
+        "description": "breakpoint --lg"
+    },
+
+    "breakpointsXL": {
+        "prefix": "--xl",
+        "body": [
+            "@media screen and (min-width: 1200px) {",
+            "    $1",
+            "}"
+        ],
+        "description": "breakpoint --xl"
+    },
+
+    "breakpointsXXL": {
+        "prefix": "--xxl",
+        "body": [
+            "@media screen and (min-width: 1400px) {",
+            "    $1",
+            "}"
+        ],
+        "description": "breakpoint --xxl"
+    },
+}

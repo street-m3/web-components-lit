@@ -1,0 +1,174 @@
+{
+    // HEAD SNIPPETS ================================//
+    "HEAD": {
+        "prefix": "!!",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"ja\">",
+            "<head>",
+            "\t<meta charset=\"UTF-8\">",
+            "\t<title>オリジナルテーマ</title>",
+            "\t<meta name=\"description\" content=\"ディスクリプション\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no\">",
+            "\t<link rel=\"icon\" type=\"image/x-icon\" href=\"./img/favicon.ico\">",
+            "\t<link rel=\"apple-touch-icon\" href=\"./img/favicon.ico\" sizes=\"180x180\">",
+            "\t<!-- 【JP Fonts】-- Noto Sans JP, sans-serif -->",
+            "\t<link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap\" rel=\"stylesheet\">",
+            "\t<!-- 【Global Fonts】-- Lexend Mega, sans-serif && Lobster Two, cursive -->",
+            "\t<link href=\"https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap\" rel=\"stylesheet\">",
+            "\t<link href=\"https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap\" rel=\"stylesheet\">",
+            "\t<!-- 【Font Awesome】 -->",
+            "\t<link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css\" rel=\"stylesheet\">",
+            "\t<link rel=\"stylesheet\" href=\"./css/style.css\" type=\"text/css\">",
+            "</head>",
+            "",
+            "<body data-focus-visible=\"false\" data-animate-effect=\"false\">",
+            "",
+            "\t<!-- wrapper -->",
+            "\t<div class=\"wrapper\">",
+            "",
+            "\t\t$1",
+            "",
+            "\t</div>",
+            "",
+            "</body>",
+            "</html>",
+        ],
+    },
+
+    // NO SCRIPT SNIPPETS ================================//
+    "noScriptMessage": {
+        "prefix": "noscript-m",
+        "body": [
+            "<noscript class=\"noscript-Message\">",
+            "\t<p>当ホームページは、「Javascript」を使用しております。<br>「JavaScript」をONにしてご利用ください。</p>",
+            "</noscript>"
+        ],
+    },
+
+    // HEADER SNIPPETS ================================//
+    "moduleHeader": {
+        "prefix": "header",
+        "body": [
+            "<header class=\"mod-header\" role=\"banner\">",
+            "\t<div class=\"ly-inner mod-header__inner mod-header__main\">",
+            "\t\t<nav class=\"mod-header__nav\">",
+            "\t\t\t<h1 class=\"mod-header__logo\">",
+            "\t\t\t\t<a href=\"#\" class=\"mod-header__logo--image\">",
+            "\t\t\t\t\t<img src=\"$2\" alt=\"$3\">",
+            "\t\t\t\t\t\t<span class=\"mod-header__logo--font\"></span>",
+            "\t\t\t\t</a>",
+            "\t\t\t</h1>",
+            "\t\t\t<ul class=\"mod-header__navilist\">",
+            "\t\t\t\t<li class=\"mod-header__naviItem\"><a href=\"#\">$4</a></li>",
+            "\t\t\t</ul>",
+            "\t\t</nav>",
+            "\t</div>",
+            "</header>"
+        ],
+    },
+
+    // FOOTER SNIPPETS ================================//
+    "moduleFooter": {
+        "prefix": "footer",
+        "body": [
+            "<footer class=\"mod-footer\" role=\"contentinfo\">",
+            "\t<div class=\"ly-inner\">",
+            "\t\t<small class=\"mod-footer__copyright\">",
+            "$1",
+            "\t\t</small>",
+            "\t</div>",
+            "</footer>"
+        ],
+    },
+
+    // SECTION SNIPPETS ================================//
+    "section": {
+        "prefix": "section",
+        "body": [
+            "<section class=\"sec-$1\">",
+            "\t<div class=\"ly-inner\">",
+            "$2",
+            "\t</div>",
+            "</section>"
+        ],
+    },
+
+    // "CARD SNIPPETS ================================//
+    "cardAttribute": {
+        "prefix": "attr-card",
+        "body": [
+            "data-column=\"pc:$1-md:$2-sp:$3\"",
+        ],
+    },
+
+    // "aria-hidden SNIPPETS ================================//
+    "ariaHiddenAttribute": {
+        "prefix": "hidden-attr",
+        "body": [
+            "aria-hidden=\"true\"",
+        ],
+    },
+
+    // "FLEX INLINE SNIPPETS ================================//
+    "flexInlineStyled": {
+        "prefix": "flex-inline",
+        "body": [
+            "u-flex u-flex-wrap u-flex-center u-flex-$1",
+        ],
+    },
+
+    // "TEXT TRANSFORM SNIPPETS ================================//
+    "textTransFormCapitalized": {
+        "prefix": "cap",
+        "body": [
+            "u-capitalize",
+        ],
+    },
+
+    "textTransFormUppercase": {
+        "prefix": "upp",
+        "body": [
+            "u-uppercase",
+        ],
+    },
+
+    "visualHidden": {
+        "prefix": "sr",
+        "body": [
+            "u-visual-hidden",
+        ],
+    },
+
+    // "SNS SNIPPETS ================================//
+    "socialMediaAssets": {
+        "prefix": "sns",
+        "body": [
+            "<div class=\"sec-social-media\">",
+            "\t<ul class=\"c-snsIcon-button__list\">",
+            "\t\t<li class=\"c-snsIcon-button__list--Item\">",
+            "\t\t\t<a href=\"#\" class=\"c-snsIcon-facebook\" aria-label=\"facebook\">",
+            "\t\t\t\t<span class=\"c-snsIcon-assets\">",
+            "\t\t\t\t\t<i class=\"fab fa-facebook fa-fw\" aria-hidden=\"true\"></i>",
+            "\t\t\t\t</span>",
+            "\t\t\t</a>",
+            "\t\t</li>",
+            "\t\t<li class=\"c-snsIcon-button__list--Item\">",
+            "\t\t\t<a href=\"#\" class=\"c-snsIcon-twitter\" aria-label=\"twitter\">",
+            "\t\t\t\t<span class=\"c-snsIcon-assets\">",
+            "\t\t\t\t\t<i class=\"fab fa-twitter fa-fw\" aria-hidden=\"true\"></i>",
+            "\t\t\t\t</span>",
+            "\t\t\t</a>",
+            "\t\t</li>",
+            "\t\t<li class=\"c-snsIcon-button__list--Item\">",
+            "\t\t\t<a href=\"#\" class=\"c-snsIcon-instagram\" aria-label=\"instagram\">",
+            "\t\t\t\t<span class=\"c-snsIcon-assets\">",
+            "\t\t\t\t\t<i class=\"fab fa-instagram fa-fw\" aria-hidden=\"true\"></i>",
+            "\t\t\t\t</span>",
+            "\t\t\t</a>",
+            "\t\t</li>",
+            "\t</ul>",
+            "</div>"
+        ],
+    },
+}

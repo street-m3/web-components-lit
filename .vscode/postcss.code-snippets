@@ -1,0 +1,163 @@
+{
+    // POSITION SNIPPETS ================================//
+    "positionAbsoluteCenter": {
+        "prefix": "position-center",
+        "body": [
+            "position: absolute;",
+            "top: 50%;",
+            "left: 50%;",
+            "transform: translate(-50%, -50%);"
+        ],
+        "description": "position absolute All center snippent."
+    },
+
+    "positionAbsoluteHorizontalCenter": {
+        "prefix": "position-x",
+        "body": [
+            "position: absolute;",
+            "top: $1;",
+            "left: 50%;",
+            "transform: translateX(-50%);"
+        ],
+        "description": "position absolute horizontal center snippent."
+    },
+
+    "positionAbsoluteAllZero": {
+        "prefix": "position-zero",
+        "body": [
+            "position: $1;",
+            "top: 0;",
+            "right: 0;",
+            "bottom: 0;",
+            "left: 0;",
+        ],
+        "description": "position fixed"
+    },
+
+    "positionAbsoluteVerticalCenter": {
+        "prefix": "position-y",
+        "body": [
+            "position: absolute;",
+            "top: 50%;",
+            "left: $1;",
+            "transform: translateY(-50%);"
+        ],
+        "description": "position absolute vertical center snippent."
+    },
+
+    // BACKGROUND SNIPPETS ================================//
+    "backGrooundDefaultSetting": {
+        "prefix": "bg",
+        "body": [
+            "background-color: #eee;",
+            "background-image: url($1);",
+            "background-position: center $2;",
+            "background-repeat: no-repeat;",
+            "background-size: cover;"
+        ],
+        "description": "background default All snippent."
+    },
+
+    // MEDIA QUERY SNIPPETS ================================//
+    "mediaQueryMin": {
+        "prefix": "mqmin",
+        "body": [
+            "@include g.media-screen-up (g.\\$media-$1-up) {",
+            "\t",
+            "}"
+        ],
+        "description": "mediaQuery min-width snippent."
+    },
+
+    "mediaQueryMax": {
+        "prefix": "mqmax",
+        "body": [
+            "@include g.media-screen-down (g.\\$media-$1-down) {",
+            "\t",
+            "}"
+        ],
+        "description": "mediaQuery max-width snippent."
+    },
+
+    // COMMENT OUT SNIPPETS ================================//
+    "blockComment": {
+        "prefix": "block-comment",
+        "body": [
+            "/**",
+            " *",
+            " * $1",
+            " *",
+            " */"
+        ],
+        "description": "blockd comment out."
+    },
+
+    "sectionCommentBlock": {
+        "prefix": "section-comment",
+        "body": [
+            " /*=============================================",
+            " * $1",
+            " =============================================*/"
+        ],
+        "description": "section comment out."
+    },
+
+    "subSectionCommentBlock": {
+        "prefix": "section-comment",
+        "body": [
+            " /*----------  $1  ----------*/",
+        ],
+        "description": "sub section comment out."
+    },
+
+    // After & Before SNIPPETS ================================//
+
+    "afterContent": {
+        "prefix": "after",
+        "body": [
+            "&::after {",
+            " content: '';",
+            " display: $1;",
+            "}",
+        ],
+        "description": "after content out."
+    },
+
+    "beforeContent": {
+        "prefix": "before",
+        "body": [
+            "&::before {",
+            " content: '';",
+            " display: $1;",
+            "}",
+        ],
+        "description": "before content out."
+    },
+
+    // fontAwesome 5 Free SNIPPETS ================================//
+    "fontAwesome unit": {
+        "prefix": "fa",
+        "body": [
+            "&::before {",
+            " content: '$1';",
+            " display: inline-block;",
+            " font-family: \"Font Awesome 5 Free\";",
+            " font-size: 1rem;",
+            " text-align: center;",
+            " width: 1em;",
+            "}",
+        ],
+        "description": "fontAwesome 5 Free CSS settings",
+    },
+
+    // fontFamily SNIPPETS ================================//
+
+    "FontShortHnad": {
+        "prefix": "font",
+        "body": [
+            "// style, weight, size, line-height, family",
+            "font: $1, $2, $3, $4, $5;",
+        ],
+        "description": "",
+    },
+}

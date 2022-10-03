@@ -204,7 +204,7 @@ module.exports = browserSyncOptions;
 #### 🔦Object
 
 - [ ] 【Animation Type】Image Slide Loop
-- [ ] 【Animation Type】Modal [zoom, fadeIn, slideIn...]
+- [ ] 【Animation Type】Modal[zoom, fadeIn, slideIn...]
 - [ ] 【Animation Type】Sentence 
 - [ ] 【Animation Type】Scrolling Animation Effect
 

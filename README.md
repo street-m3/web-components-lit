@@ -4,7 +4,7 @@
 ## Node Version
 
 Node.js v14.15.4<br />
-※バージョンが古いため、postcss-preset-envのバージョンを固定にしています。最新のNodeバージョンで、最新のpackageの動作環境を未確認。
+※バージョンが古いため、postcss-preset-envのバージョンを固定にしています。最新のNodeバージョンによる動作は未確認。
 
 
 ## 🗂Create Directory

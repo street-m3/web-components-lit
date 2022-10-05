@@ -3,10 +3,14 @@ const EnabledScripts = () => {
 
     if (Html.nodeType) {
         Html.setAttribute('data-js-enabled', 'true');
-        console.info('JavaScript is loading properly!');
+        if (Html.classList.contains('no-js')) {
+            Html.classList.remove('no-js');
+        }
     }
 
     return Html = null;
 }
 
-EnabledScripts();
+document.addEventListener('DOMContentLoaded', () => {
+    EnabledScripts();
+});

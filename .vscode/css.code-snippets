@@ -58,4 +58,21 @@
         ],
         "description": "breakpoint --xxl"
     },
+
+    "clamp": {
+        "prefix": "clamp",
+        "body": [
+            "--a: calc(100 * calc(var(--max) - var(--min)) / calc(var(--comp-base-upper) - var(--comp-base-lower)));",
+            "--b: calc(var(--min) - calc(var(--comp-base-lower) / 100) * var(--a));",
+            "--c: calc(var(--min) * 1px);",
+            "--d: calc(var(--a) * 1vw + var(--b) * 1px);",
+            "--e: calc(var(--max) * 1px);",
+            "--min: $1;",
+            "--max: $2;",
+            "--clamp: clamp(var(--c), var(--d), var(--e));",
+            "$3: var(--clamp);",
+            "min-height: 0vw;"
+        ],
+        "description": "fliid value"
+    },
 }
